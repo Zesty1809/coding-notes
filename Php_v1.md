@@ -32,7 +32,9 @@ When PHP parses a file, it looks for opening and closing tags, which are \<?php 
 PHP includes a short echo tag \<?= which is a short-hand to the more verbose \<?php echo.
 Example:
 ```php
-<?php echo 'if you want to serve PHP code in XHTML or XML documents, use these tags'; ?>
+<?php
+echo 'if you want to serve PHP code in XHTML or XML documents, use these tags';
+?>
 
 You can use the short echo tag to <?= 'print this string' ?>.
     It's equivalent to <?php echo 'print this string' ?>.
