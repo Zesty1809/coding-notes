@@ -39,13 +39,13 @@ You can use the short echo tag to <?= 'print this string' ?>.
 If a file contains only PHP code, it is preferable to omit the PHP closing tag at the end of the file. This prevents accidental whitespace or new lines being added after the PHP closing tag, which may cause unwanted effects because PHP will start output buffering when there is no intention from the programmer to send any output at that point in the script.
 
 ```php
-`<?php   echo "Hello world";
+<?php   echo "Hello world";
 
 // ... more code
 
 echo "Last statement";      
 
-// the script ends here with no PHP closing tag`
+// the script ends here with no PHP closing tag
 ```
 
 # Escaping from HTML
